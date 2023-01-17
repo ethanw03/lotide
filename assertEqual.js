@@ -6,7 +6,9 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-assertEqual("Lighthouse Labs ", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("fun", "fun")
-assertEqual(12, 18)
+// assertEqual("Lighthouse Labs ", "Bootcamp");
+// assertEqual(1, 1);
+// assertEqual("fun", "fun")
+// assertEqual(12, 18)
+
+module.exports = assertEqual;
